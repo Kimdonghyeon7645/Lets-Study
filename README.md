@@ -110,6 +110,7 @@
 - [Websockets vs Long Polling](https://www.ably.io/blog/websockets-vs-long-polling/?utm_source=share&utm_medium=ios_app&fbclid=IwAR0ZAaLo_ZhFjL5xO21hsXKk5E_pRule-h0Bzs3gEl3uxB50Y3bi7ganH3w)
 - [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
+- [GET이냐 POST냐 그것이 문제로다](https://homoefficio.github.io/2019/12/25/GET%EC%9D%B4%EB%83%90-POST%EB%83%90-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EB%AC%B8%EC%A0%9C%EB%A1%9C%EB%8B%A4/)
 #### CORS
 - [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
 - [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
@@ -157,6 +158,7 @@
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
 - [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
 - [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies) 
+- [JSON Schema: verifying object's values, without keys](https://stackoverflow.com/questions/31117586/json-schema-verifying-objects-values-without-keys)
 ### 인증 관련
 #### JWT
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
@@ -244,8 +246,13 @@
 - [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
 - [파이썬으로 정리하는 Quick-Sort](https://parksb.github.io/article/18.html)
 - [Dijkstra’s Shortest Path Algorithm in Python](https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064)
+- [Levenshtein Distance](https://madplay.github.io/post/levenshtein-distance-edit-distance)
 ### 네트워크
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
+
+## 보안
+### 암호화
+- [안전한 패스워드 저장](https://d2.naver.com/helloworld/318732)
 
 ## 데이터 엔지니어링, 수학
 - [Markov Chains - The University of Auckland](https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf?fbclid=IwAR0XxZEbI5xJbyrzrTSAp7fYUZACMAPDEGw_bbdUhs6e8gwNjLqPFNm3x4M)
@@ -269,6 +276,8 @@
 
 # 벤치마킹
 ## 배울 점 많은 코드
+### Android
+- [WebToon](https://github.com/Pluu/WebToon)
 ### 백엔드
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 - [velog](https://github.com/velopert/velog)
@@ -291,8 +300,10 @@
 ## 조직 문화
 - [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
 - [기능 공장에서 일하고 있다는 12가지 신호](https://cojette.github.io/featurefactory/)
+- [Why Development Teams are Slow](https://medium.com/javascript-scene/why-development-teams-are-slow-89107985c75c)
 ## UI/UX
 - [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+- [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
 ## 자기계발
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 
@@ -397,6 +408,7 @@
 - [Multiple select statements in Single query](https://stackoverflow.com/questions/1775168/multiple-select-statements-in-single-query)
 - [MySQL Orderby a number, Nulls last](https://stackoverflow.com/a/4195311)
 - [How to check for Is not Null And Is not Empty string in SQL server?](https://stackoverflow.com/questions/8660203/how-to-check-for-is-not-null-and-is-not-empty-string-in-sql-server)
+- [MySQL UNIQUE key not working](https://stackoverflow.com/questions/22156301/mysql-unique-key-not-working)
 #### JOIN
 - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
 - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
@@ -413,6 +425,8 @@
 - [Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='](https://stackoverflow.com/questions/11770074/illegal-mix-of-collations-utf8-unicode-ci-implicit-and-utf8-general-ci-implic)
 - [How to show the last queries executed on MySQL?](https://stackoverflow.com/questions/650238/how-to-show-the-last-queries-executed-on-mysql)
 - [MySQL cannot create foreign key constraint](https://stackoverflow.com/questions/21526055/mysql-cannot-create-foreign-key-constraint)
+- [When to use SELECT … FOR UPDATE?](https://stackoverflow.com/questions/10935850/when-to-use-select-for-update)
+- [갭락(Gap Lock)과 넥스트 키 락(Next-Key Lock)](https://idea-sketch.tistory.com/46)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
@@ -425,7 +439,6 @@
 ### ElasticSearch
 #### Query
 - [Query and filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html)  
-- [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
 - [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
 - [What is the difference between must and filter Query DSL in ElasticSearch?](https://stackoverflow.com/a/43349478)  
 - [ElasticSearch match vs term query](https://stackoverflow.com/questions/23150670/elasticsearch-match-vs-term-query)  
@@ -440,6 +453,14 @@
 ## 웹 프레임워크
 ### Python
 #### Flask
+- [flask-base](https://github.com/hack4impact/flask-base)
+- [fbone](https://github.com/imwilsonxu/fbone)
+- [cookiecutter-flask](https://github.com/cookiecutter-flask/cookiecutter-flask)
+- [flask-foundation](https://github.com/JackStouffer/Flask-Foundation)
+- [flask-rest-template](https://github.com/alexandre-old/flask-rest-template)
+- [flask-appbuilder](https://github.com/dpgaspar/Flask-AppBuilder)
+- [flask-realworld-example-app](https://github.com/gothinkster/flask-realworld-example-app)
+- [flask-large-application-example](https://github.com/Robpol86/Flask-Large-Application-Example)
 - [Flask 1.0 Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/)
 - [Flask 1.0 공식 튜토리얼](http://flask.pocoo.org/docs/1.0/tutorial/)
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
@@ -503,6 +524,7 @@
 - [Why True/False is capitalized in Python?](https://stackoverflow.com/questions/521476/why-true-false-is-capitalized-in-python)
 - [Why is bool a subclass of int?](https://stackoverflow.com/questions/8169001/why-is-bool-a-subclass-of-int)
 - [In python, why use logging instead of print?](https://stackoverflow.com/questions/6918493/in-python-why-use-logging-instead-of-print)
+- [Why is the order in dictionaries and sets arbitrary?](https://stackoverflow.com/questions/15479928/why-is-the-order-in-dictionaries-and-sets-arbitrary)
 #### Unexpected Behaviors
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python 3.x rounding behavior](https://stackoverflow.com/questions/10825926/python-3-x-rounding-behavior)
@@ -562,6 +584,7 @@
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882) 
 - [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)
+- [Blocking-NonBlocking-Synchronous-Asynchronous](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)
 
 ### 라이브러리 패키징
 - [파이썬 프로젝트 시작하기 - Setuptools](http://www.flowdas.com/blog/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-setuptools/)
@@ -870,6 +893,8 @@
 ## iOS
 
 # 웹 프론트엔드
+## 코딩 없이 웹페이지 개발
+- [Webflow](https://webflow.com/)
 ## 웹 프로그래밍 자체
 - [웹 프로그래밍 튜토리얼 | PoiemaWeb](https://poiemaweb.com/)
 - [Index fun](https://psuter.net/2019/07/07/z-index?utm_source=share&utm_medium=ios_app&fbclid=IwAR0NXcIo0R_qqEb6PZGK0nvx89ZO6mgf9A1FKiTabWQntAR7Fd-RdCHX5Hw)
